@@ -26,11 +26,7 @@ def current_player(board)
   end
 end
 
-#ternary-operators implementation
+#ternary-if implementation
 def current_player(board)
-  if turn_count(board) % 2 == 0 
-    "X"
-  else
-    "O"
-  end
+  turn_count(board).even? ? "X" : "O"
 end
