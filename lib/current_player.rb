@@ -9,22 +9,22 @@ def turn_count(board)
 end
 
 #modulo implementation
-def current_player(board)
-  if turn_count(board) % 2 == 0 
-    "X"
-  else
-    "O"
-  end
-end
+# def current_player(board)
+#   if turn_count(board) % 2 == 0 
+#     "X"
+#   else
+#     "O"
+#   end
+# end
 
 #.even? .odd? implementation
-def current_player(board)
-  if turn_count(board) % 2 == 0 
-    "X"
-  else
-    "O"
-  end
-end
+# def current_player(board)
+#   if turn_count(board) % 2 == 0 
+#     "X"
+#   else
+#     "O"
+#   end
+# end
 
 #ternary-if implementation
 def current_player(board)
